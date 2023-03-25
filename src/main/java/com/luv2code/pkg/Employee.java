@@ -5,15 +5,11 @@ public class Employee{
 	
 public Employee(){}
 
-
-	
 public Employee(int employeeId, String employeeName) {
 	super();
 	this.employeeId = employeeId;
 	this.employeeName = employeeName;
 }
-
-
 
 public int getEmployeeId() {
 	return employeeId;
