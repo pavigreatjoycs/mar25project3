@@ -23,6 +23,10 @@ public String getEmployeeName() {
 public void setEmployeeName(String employeeName) {
 	this.employeeName = employeeName;
 }
-  
+
+@Override
+public String toString() {
+	return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + "]";
+}
   
 }
