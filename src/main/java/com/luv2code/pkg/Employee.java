@@ -2,6 +2,9 @@ package com.luv2code.pkg;
 public class Employee{
   private int employeeId;
   private String employeeName;
+	
+public Employee(){}
+	
 public int getEmployeeId() {
 	return employeeId;
 }
